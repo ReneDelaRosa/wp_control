@@ -1,8 +1,3 @@
-//http://docs.opencv.org/3.1.0
-/*
-	28 Febrero 2018 22:23
-	Se agregó Filtro Median Blur
-*/
 #include <ros/ros.h>
 #include <iostream>
 #include <sstream>
