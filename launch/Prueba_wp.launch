@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<launch>
+	<node pkg="wp_con" name="Keyboard" type="Keyboard" launch-prefix="xterm -e" >
+		<param name="autosize" value="true"/>	
+	</node>
+
+	<node pkg="wp_con" name="C_p6" type="C_p6" launch-prefix="xterm -e" >
+		<param name="autosize" value="true"/>
+	</node>
+
+	<node pkg="wp_con" name="c_vaz" type="c_vaz" >
+	</node>
+
+	<node pkg="wp_con" name="vi_wp" type="vi_wp">
+	</node>
+
+	<node pkg="wp_con" name="cam_pose" type="cam_pose.py"/>
+
+	<node pkg="wp_con" name="control_yP" type="control_yP.py"/>
+
+	<node pkg="wp_con" name="c_vy" type="c_vy">
+	</node>
+	
+</launch>
